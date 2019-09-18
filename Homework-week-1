@@ -1,0 +1,15 @@
+Create at least 3 different classes and several instances for these classes for your projects
+create at least 2 different interactions between said classes
+
+RecipeTin
+Objects
+1. Recipe 
+2. Food 
+3. Customer
+4. Grocers
+5. Delivery
+
+Interactions
+1. Customer choose recipes.
+2. Customers orders Food from Grocers.
+3. Delivery boys delivers food. 
