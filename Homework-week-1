@@ -1,15 +1,18 @@
 Create at least 3 different classes and several instances for these classes for your projects
 create at least 2 different interactions between said classes
 
-RecipeTin
-Objects
-1. Recipe 
-2. Food 
-3. Customer
-4. Grocers
-5. Delivery
+Appoinment Scheduling
+1. Users
+2. Service provider
+3. Scheduler
 
 Interactions
-1. Customer choose recipes.
-2. Customers orders Food from Grocers.
-3. Delivery boys delivers food. 
+1. Users will search for particular service provider.
+2. User chooses the service.
+3. The service provider schedule a service for User.
+4. Scheduler finds the probable time to fix the appointment.
+5. Scheduler gives options for the appointment to Users.
+6. User confirms the appointmnet.
+7. The service provider acknowledges appointment schedule.
+
+
