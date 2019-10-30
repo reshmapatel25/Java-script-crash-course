@@ -2,7 +2,7 @@ const express = require("express");
 const fs = require("fs-extra");
 
 const app = express();
-
+const port = process.env.PORT;
 app.use(express.urlencoded({extended: true}));
 
 app.get("/", (request, response) => {
@@ -31,4 +31,4 @@ app.post("/register", (request, response) => {
 // static file serving, see: https://expressjs.com/en/starter/static-files.html
 app.use(express.static("public"));
 
-app.listen(3000, () => console.log("server listening on port 3000"));
+app.listen(port, () => console.log("server listening on port 3000"));
